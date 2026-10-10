@@ -1,4 +1,13 @@
-# SIRAP — Budget Realisation Reporting Workflow
+# SIRAP — Sistem Informasi Realisasi Anggaran dan Penyerapan
+
+*District Budget Realisation Reporting Workflow*
+
+## Ringkasan
+
+SIRAP adalah aplikasi web untuk mencatat, meninjau, dan memantau realisasi
+anggaran pada tingkat kecamatan. Setiap peran memiliki alur kerja yang jelas,
+mulai dari pelaporan kegiatan hingga verifikasi bertahap, dengan alokasi,
+bukti pendukung, dan kontrol pelaporan yang terhubung dalam satu sistem.
 
 SIRAP is a web application for recording, reviewing, and monitoring budget
 realisation at the district-government level. It gives each role a focused
@@ -13,8 +22,8 @@ workflow: staff record activity realisation, reviewers check submissions in
 sequence, and authorised users can monitor allocation use and export reports.
 
 The interface is intentionally in Indonesian for its operational users. This
-repository is an English-first case study of the product and the engineering
-decisions behind it; the application source remains private.
+repository presents the product and its engineering decisions in Indonesian
+and English; the application source remains private.
 
 ## Demo Access
 

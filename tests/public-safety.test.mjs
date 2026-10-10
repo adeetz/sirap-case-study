@@ -111,6 +111,7 @@ test('reports every missing required public document', async () => {
 test('README contract keeps the demo private and provides a contact path', async () => {
   const readme = await readFile(new URL('../README.md', import.meta.url), 'utf8');
   const requiredHeadings = [
+    '## Ringkasan',
     '## Overview',
     '## Demo Access',
     '## Key Capabilities',
@@ -124,6 +125,7 @@ test('README contract keeps the demo private and provides a contact path', async
   for (const heading of requiredHeadings) {
     assert.equal(readme.includes(heading), true, `missing ${heading}`);
   }
+  assert.match(readme, /Sistem Informasi Realisasi Anggaran dan Penyerapan/);
 
   assert.equal(/https?:\/\//.test(readme), false);
   assert.equal(/@demo\.sirap\.local\b/.test(readme), false);
