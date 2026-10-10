@@ -1,0 +1,10 @@
+.worktrees/
+.env*
+*.bak
+*.dump
+*.sql
+*.sqlite
+*.zip
+node_modules/
+assets/screenshots/private/
+.DS_Store

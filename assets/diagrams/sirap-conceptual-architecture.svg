@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" role="img" aria-labelledby="title description">
+  <title id="title">SIRAP conceptual architecture</title>
+  <desc id="description">Browser connects over HTTPS to Laravel/Inertia, which uses PostgreSQL and Private Evidence Storage.</desc>
+  <style>.node{fill:#fff;stroke:#1e3a5f;stroke-width:3}.label{fill:#102a43;font:600 24px system-ui;text-anchor:middle}.sub{fill:#486581;font:16px system-ui;text-anchor:middle}.line{stroke:#2f80ed;stroke-width:4;marker-end:url(#a)}</style>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3z" fill="#2f80ed"/></marker></defs>
+  <rect width="960" height="320" rx="24" fill="#f8fafc"/>
+  <rect class="node" x="40" y="110" width="190" height="90" rx="16"/><text class="label" x="135" y="153">Browser</text><text class="sub" x="135" y="180">User interface</text>
+  <path class="line" d="M230 155H380"/><text class="sub" x="305" y="132">HTTPS</text>
+  <rect class="node" x="385" y="95" width="250" height="120" rx="16"/><text class="label" x="510" y="145">Laravel/Inertia</text><text class="sub" x="510" y="175">Workflow and access controls</text>
+  <path class="line" d="M635 130H745"/><path class="line" d="M635 185H745"/>
+  <rect class="node" x="750" y="70" width="170" height="90" rx="16"/><text class="label" x="835" y="110">PostgreSQL</text><text class="sub" x="835" y="137">Structured data</text>
+  <rect class="node" x="750" y="190" width="170" height="90" rx="16"/><text class="label" x="835" y="225">Private</text><text class="label" x="835" y="255">Evidence Storage</text>
+</svg>

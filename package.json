@@ -1,0 +1,7 @@
+{
+  "name": "sirap-case-study",
+  "private": true,
+  "scripts": {
+    "test:public-safety": "node --test tests/public-safety.test.mjs"
+  }
+}
