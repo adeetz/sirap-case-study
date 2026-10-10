@@ -132,6 +132,25 @@ test('README contract keeps the demo private and provides a contact path', async
   assert.match(readme, /m\.noor\.aditya\.rahman@gmail\.com/);
 });
 
+test('README presents only sanitised local screenshots', async () => {
+  const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
+  const readme = await readFile(path.join(root, 'README.md'), 'utf8');
+  const screenshots = [
+    'assets/screenshots/login.png',
+    'assets/screenshots/dashboard.png',
+    'assets/screenshots/activity-reports.png',
+    'assets/screenshots/budget-recap.png',
+  ];
+
+  assert.equal(readme.includes('## Screenshots'), true, 'missing Screenshots section');
+
+  for (const screenshot of screenshots) {
+    assert.equal(readme.includes(`](${screenshot})`), true, `missing screenshot link: ${screenshot}`);
+    const data = await readFile(path.join(root, screenshot));
+    assert.equal(data.subarray(1, 4).toString('ascii'), 'PNG', `${screenshot} is not a PNG`);
+  }
+});
+
 test('case study and architecture contract describe the same safe boundaries', async () => {
   const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
   const [caseStudy, architecture, diagram] = await Promise.all([

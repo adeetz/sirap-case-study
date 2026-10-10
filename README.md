@@ -32,6 +32,20 @@ workflow. Please contact
 [m.noor.aditya.rahman@gmail.com](mailto:m.noor.aditya.rahman@gmail.com) to
 arrange access.
 
+## Screenshots
+
+The screens below use fictional, sanitised portfolio data only. They illustrate
+the Indonesian interface and the core reporting workflow without exposing a
+live environment, credentials, or operational records.
+
+| Login | Leadership dashboard |
+| --- | --- |
+| ![SIRAP login screen](assets/screenshots/login.png) | ![SIRAP leadership dashboard with fictional budget summary](assets/screenshots/dashboard.png) |
+
+| Activity reports | Budget recap |
+| --- | --- |
+| ![SIRAP activity report list with fictional entries](assets/screenshots/activity-reports.png) | ![SIRAP budget recap with fictional portfolio figures](assets/screenshots/budget-recap.png) |
+
 ## Key Capabilities
 
 - Budget allocation management with ceiling-aware reporting controls.
