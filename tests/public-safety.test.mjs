@@ -143,6 +143,9 @@ test('README presents only sanitised local screenshots', async () => {
   ];
 
   assert.equal(readme.includes('## Screenshots'), true, 'missing Screenshots section');
+  for (const label of ['Masuk', 'Dashboard Pimpinan', 'Daftar Laporan Kegiatan', 'Rekapitulasi Anggaran']) {
+    assert.equal(readme.includes(label), true, `missing Indonesian screenshot label: ${label}`);
+  }
 
   for (const screenshot of screenshots) {
     assert.equal(readme.includes(`](${screenshot})`), true, `missing screenshot link: ${screenshot}`);

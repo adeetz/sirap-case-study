@@ -32,19 +32,24 @@ workflow. Please contact
 [m.noor.aditya.rahman@gmail.com](mailto:m.noor.aditya.rahman@gmail.com) to
 arrange access.
 
-## Screenshots
+## Screenshots / Tampilan Aplikasi
+
+Tampilan di bawah hanya menggunakan data portofolio fiktif yang sudah
+disanitasi. Gambar ini memperlihatkan antarmuka berbahasa Indonesia dan alur
+pelaporan utama tanpa membuka lingkungan aktif, kredensial, atau catatan
+operasional.
 
 The screens below use fictional, sanitised portfolio data only. They illustrate
-the Indonesian interface and the core reporting workflow without exposing a
-live environment, credentials, or operational records.
+the Indonesian interface and core reporting workflow without exposing a live
+environment, credentials, or operational records.
 
-| Login | Leadership dashboard |
+| Masuk / Login | Dashboard Pimpinan / Leadership dashboard |
 | --- | --- |
-| ![SIRAP login screen](assets/screenshots/login.png) | ![SIRAP leadership dashboard with fictional budget summary](assets/screenshots/dashboard.png) |
+| ![Halaman masuk SIRAP / SIRAP login screen](assets/screenshots/login.png) | ![Dashboard Pimpinan SIRAP dengan ringkasan anggaran fiktif / SIRAP leadership dashboard with fictional budget summary](assets/screenshots/dashboard.png) |
 
-| Activity reports | Budget recap |
+| Daftar Laporan Kegiatan / Activity reports | Rekapitulasi Anggaran / Budget recap |
 | --- | --- |
-| ![SIRAP activity report list with fictional entries](assets/screenshots/activity-reports.png) | ![SIRAP budget recap with fictional portfolio figures](assets/screenshots/budget-recap.png) |
+| ![Daftar laporan kegiatan SIRAP dengan data fiktif / SIRAP activity report list with fictional entries](assets/screenshots/activity-reports.png) | ![Rekapitulasi anggaran SIRAP dengan angka portofolio fiktif / SIRAP budget recap with fictional portfolio figures](assets/screenshots/budget-recap.png) |
 
 ## Key Capabilities
 
